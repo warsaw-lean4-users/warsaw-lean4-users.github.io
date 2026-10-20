@@ -20,6 +20,8 @@ opportunities for research in this area.
 
 [Presentation materials](https://github.com/warsaw-lean4-users/meetings)
 
+[Original invitation from Marcin on Lean Zulip](https://leanprover.zulipchat.com/#narrow/channel/224796-Geographic-locality/topic/Warsaw.2C.20PL/near/631655671)
+
 ## Add to your calendar
 
 <div class="calendar-widget">
