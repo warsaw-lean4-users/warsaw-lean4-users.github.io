@@ -1,0 +1,49 @@
+title: Warsaw Lean 4 Users
+description: A community for Lean 4 users in Warsaw.
+locale: en
+url: "https://warsaw-lean4-users.github.io"
+baseurl: ""
+repository: warsaw-lean4-users/warsaw-lean4-users.github.io
+
+# Pin the theme so upstream changes do not unexpectedly change the site.
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: default
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: false
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      share: false
+      related: true
+
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/warsaw-lean4-users
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - LICENSE
+  - vendor

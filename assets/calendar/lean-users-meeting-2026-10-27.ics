@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Warsaw Lean 4 Users//Meeting Calendar//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:lean-users-meeting-20261027@warsaw-lean4-users.github.io
+DTSTAMP:20261020T120000Z
+DTSTART:20261027T170000Z
+DTEND:20261027T180000Z
+SUMMARY:Warsaw Lean Users Meeting
+DESCRIPTION:What's New in Lean 4? Recent Developments and Directions for the Coming Year.\n\nThe end time is a one-hour placeholder and can be adjusted.
+LOCATION:Room 4420
+END:VEVENT
+END:VCALENDAR
