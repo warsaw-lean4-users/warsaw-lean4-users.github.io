@@ -72,7 +72,8 @@
 }
 
 #main .material-icon svg,
-#main .material-icon img { display: block; width: 16px !important; height: 16px !important; max-width: 16px !important; }
+#main .material-icon img { display: block; width: 20px !important; height: 20px !important; max-width: 20px !important; }
+#main .material-icon svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .material-icon--calendar { color: #16705d; background: #e3f3ec; }
 .material-icon--github { color: #292b32; background: #eceef2; }
 .material-item strong { display: block; color: #222c36; font-size: 0.85rem; }

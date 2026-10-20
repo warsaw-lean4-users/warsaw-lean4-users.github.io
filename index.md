@@ -25,12 +25,12 @@ Resources and ongoing projects from the Warsaw Lean community:
 
 <div class="materials-list">
   <a class="material-item" href="https://ruplet.com/ai4math-calendar">
-    <span class="material-icon material-icon--calendar" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><rect x="3.5" y="5" width="17" height="16" rx="2"/><path d="M7.5 3v4M16.5 3v4M3.5 9.5h17"/></svg></span>
+    <span class="material-icon material-icon--calendar" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><rect x="3.5" y="5" width="17" height="16" rx="2"/><path d="M7.5 3v4M16.5 3v4M3.5 9.5h17"/></svg></span>
     <span><strong>AI for Math events calendar</strong><small>Conferences and events at the intersection of AI and mathematics.</small></span>
     <span class="material-arrow" aria-hidden="true">↗</span>
   </a>
   <a class="material-item" href="https://github.com/warsaw-lean4-users/meetings">
-    <span class="material-icon material-icon--github" aria-hidden="true"><img src="{{ '/assets/images/github.svg' | relative_url }}" width="16" height="16" alt=""></span>
+    <span class="material-icon material-icon--github" aria-hidden="true"><img src="{{ '/assets/images/github.svg' | relative_url }}" width="20" height="20" alt=""></span>
     <span><strong>Lean users meeting materials</strong><small>Talks, notes, and resources from our meetings.</small></span>
     <span class="material-arrow" aria-hidden="true">↗</span>
   </a>
