@@ -11,6 +11,17 @@
   vertical-align: middle;
 }
 
+.news-icon svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .news-icon--meetup {
   color: #176654;
   background: #e3f3ec;
@@ -60,7 +71,8 @@
   font-size: 0.9rem;
 }
 
-.material-icon svg { width: 1.15rem; height: 1.15rem; }
+#main .material-icon svg,
+#main .material-icon img { display: block; width: 16px !important; height: 16px !important; max-width: 16px !important; }
 .material-icon--calendar { color: #16705d; background: #e3f3ec; }
 .material-icon--github { color: #292b32; background: #eceef2; }
 .material-item strong { display: block; color: #222c36; font-size: 0.85rem; }
@@ -85,6 +97,25 @@
 .zulip-button:hover { background: #30438d; }
 .zulip-button img { display: block; width: 1.35rem; height: 1.35rem; }
 .zulip-button span { margin-left: 0.25rem; }
+
+/* Use image assets for the theme's footer brand icons; this avoids icon-font
+   rendering differences in iOS browsers. */
+.page__footer-follow .social-icons i.fa-github,
+.page__footer-follow .social-icons i.fa-square-rss {
+  display: inline-block;
+  width: 1em !important;
+  height: 1em;
+  margin-right: 0.2em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: -0.12em;
+}
+
+.page__footer-follow .social-icons i.fa-github { background-image: url("../images/github.svg"); }
+.page__footer-follow .social-icons i.fa-square-rss { background-image: url("../images/rss.svg"); }
+.page__footer-follow .social-icons i.fa-github::before,
+.page__footer-follow .social-icons i.fa-square-rss::before { content: none; }
 
 .calendar-widget {
   display: flex;
@@ -114,13 +145,12 @@
 
 .calendar-button--google {
   color: #fff !important;
-  background: #287b55;
+  background: #3d6fbe;
 }
 
 .calendar-button--apple {
-  color: #303b59 !important;
-  background: #f0f2f8;
-  border-color: #d9deeb;
+  color: #fff !important;
+  background: #6856a5;
 }
 
 @media (prefers-reduced-motion: reduce) {
